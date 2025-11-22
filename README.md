@@ -64,8 +64,4 @@ It reads the PDF, extracts text, and uses the **Cerebras GPT-OSS-120B** model to
         "narration": "GST TAX HOLD",
         "is_deduction": true
       }
-    ]
-  }
-}
-
 
