@@ -35,7 +35,7 @@ It reads the PDF, extracts text, and uses the **Cerebras GPT-OSS-120B** model to
 
 ---
 
-## Sample Output
+## Sample Output( Json
 {
   "status": "success",
   "data": {
@@ -46,7 +46,7 @@ It reads the PDF, extracts text, and uses the **Cerebras GPT-OSS-120B** model to
     "company_name": "COMBINED FOODS (P) LIMITED",
     "document_type": "payment_advice",
     "payment_details": [
-      {
+     {
         "doc_no": "11172260",
         "invoice_ref": "CK2236-FY26",
         "document_amount": "11,723.00",
@@ -67,5 +67,6 @@ It reads the PDF, extracts text, and uses the **Cerebras GPT-OSS-120B** model to
     ]
   }
 }
+
 
 
