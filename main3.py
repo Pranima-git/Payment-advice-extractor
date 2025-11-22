@@ -7,6 +7,8 @@ from fastapi import FastAPI, UploadFile, File
 from openai import OpenAI
 
 load_dotenv()
+
+
 api_key = os.getenv("CEREBRAS_API_KEY")
 
 # Cerebras client
