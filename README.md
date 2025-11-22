@@ -35,7 +35,7 @@ It reads the PDF, extracts text, and uses the **Cerebras GPT-OSS-120B** model to
 
 ---
 
-## Sample Output( Json
+## Sample Output(Json)
 {
   "status": "success",
   "data": {
