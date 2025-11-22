@@ -35,6 +35,18 @@ It reads the PDF, extracts text, and uses the **Cerebras GPT-OSS-120B** model to
 
 ---
 
+##  Postman API Testing 
+1. Start the FastAPI server:uvicorn main3:app --reload --port 8000
+2. Open Postman and create a new POST request:http://127.0.0.1:8000/extract_payment_advice
+3. Go to Body → form-data and add:
+
+Key: file
+Type: File
+Value: Upload your payment advice PDF
+
+4. Click Send.
+You will receive a structured JSON output extracted using the Cerebras LLM.
+
 ## Sample Output(Json)
 ```json
 {
